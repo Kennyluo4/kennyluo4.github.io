@@ -1627,7 +1627,11 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
-
+		.bounding-box {
+			background-image: url(...);
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
 		.image img {
 			display: block;
 			width: 100%;
