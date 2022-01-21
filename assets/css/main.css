@@ -194,7 +194,7 @@ input, select, textarea {
 	hr {
 		border: 0;
 		border-top: solid 1px #444;
-		border-top-color: rgba(0, 0, 0, 0.35);
+		border-top-color: rgba(250, 85, 8, 0.466);
 		box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
 		height: 1px;
 		margin: 3em 0;
@@ -227,6 +227,7 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: calc(100% - 50px);
 		width: 1200px;
+		
 	}
 
 		.container.medium {
@@ -2036,16 +2037,16 @@ input, select, textarea {
 /* Nav */
 
 	#nav {
-		background-color: #282828;
-		text-align: center;
-		position: fixed;
+		background-color: #0757cf;
+		text-align: right;
+		position:fixed;
 		left: 0;
 		top: 0;
 		width: 100%;
 		z-index: 10000;
 		cursor: default;
-		height: 3.5em;
-		line-height: 3.5em;
+		height: 5em;
+		line-height: 5em;
 	}
 
 		#nav ul {
@@ -2064,7 +2065,7 @@ input, select, textarea {
 			-webkit-transition: background-color .2s ease-in-out;
 			-ms-transition: background-color .2s ease-in-out;
 			transition: background-color .2s ease-in-out;
-			position: relative;
+			position: static;
 			display: block;
 			color: #fff;
 			text-decoration: none;
@@ -2078,8 +2079,8 @@ input, select, textarea {
 		}
 
 			#nav a:hover {
-				color: #fff !important;
-				background: #383838;
+				color: rgb(255, 255, 255) !important;
+				background: #fc5102;
 			}
 
 			#nav a.active {
@@ -2442,4 +2443,11 @@ input, select, textarea {
 						margin-top: 0;
 					}
 
+	}
+.avatar {
+	vertical-align: middle;
+	margin-left:500px;
+	width: 70px;
+	height: 70px;
+	border-radius: 80%;
 	}
