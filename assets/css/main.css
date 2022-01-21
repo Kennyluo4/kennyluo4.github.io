@@ -1809,10 +1809,10 @@ input, select, textarea {
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					background-color: rgb(255, 255, 255);
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
-					color: #2E2E2E !important;
+					color: #000000 !important;
 					display: block;
 					font-size: 26px;
 					height: 48px;
@@ -1837,7 +1837,7 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-linkedin-in {
-					background-color: #006599;
+					background-color: #006999;
 				}
 
 				ul.social li a.fa-tumblr {
@@ -1849,7 +1849,8 @@ input, select, textarea {
 				}
 
 				ul.social li a.fa-github {
-					background-color: #FAFAFA;
+					background-color: #27273dc0;
+	
 				}
 
 				ul.social li a.fa-rss {
@@ -2042,7 +2043,7 @@ input, select, textarea {
 
 	#nav {
 		background-color: #0757cf;
-		text-align: right;
+		text-align: left;
 		position:fixed;
 		left: 0;
 		top: 0;
@@ -2056,7 +2057,7 @@ input, select, textarea {
 		#nav ul {
 			margin-bottom: 0;
 			list-style: none;
-			padding-left: 0;
+			padding-left: 5;
 		}
 
 		#nav li {
