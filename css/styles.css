@@ -4565,7 +4565,7 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.9);
 }
 .navbar-light .navbar-nav .nav-link {
-  color: rgba(0, 0, 0, 0.55);
+  color: rgba(117, 140, 111, 0.75);
 }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
   color: rgba(0, 0, 0, 0.7);
@@ -11488,8 +11488,7 @@ body {
 
 #mainNav .nav-link{
   min-height: 3.5rem;
-  background-color: #fff0;
-  color: white;
+  background-color: transparent;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
