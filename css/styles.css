@@ -80,6 +80,48 @@
   }
 }
 
+/*define the gallary*/
+div.flower {
+    border:1px solid lightgrey;
+}
+
+div.flower:hover {
+    border-color:#999999;
+}
+div.flower img {
+    width:100%;
+    height:350px;
+}
+
+* {
+    box-sizing: border-box;
+}
+/*注意float:left的使用*/
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.9%;
+    height:auto;
+}
+div.flower p {
+    padding:10px 15px;
+    font-family:Georgia;
+    font-size:18px;
+}
+/*用于设置responsive的代码*/
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.9%;
+        margin: 6px 0;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width:100%;
+    }
+}
+
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
